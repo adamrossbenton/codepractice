@@ -1,3 +1,6 @@
+from re import S
+
+
 def lcp_brute(strs):
     lcp = ""
     shortest = len(min(strs, key=len))
@@ -29,6 +32,9 @@ samp_strs_3 = [
     "stingus"
 ]
 
+print("TEST CASE 1")
 print(lcp_brute(samp_strs_1))
+print("TEST CASE 2")
 print(lcp_brute(samp_strs_2))
+print("TEST CASE 3")
 print(lcp_brute(samp_strs_3))
