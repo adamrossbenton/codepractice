@@ -29,4 +29,6 @@ samp_strs_3 = [
     "stingus"
 ]
 
-print(lcp_brute(samp_strs))
+print(lcp_brute(samp_strs_1))
+print(lcp_brute(samp_strs_2))
+print(lcp_brute(samp_strs_3))
