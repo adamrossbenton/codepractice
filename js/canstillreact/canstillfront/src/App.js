@@ -3,14 +3,19 @@ import './App.css';
 
 // COMPONENTS
 import Header from "./components/Header.js"
-import Board from "./components/Board.js"
+import Gameboard from "./components/Gameboard.js"
+import Scoreboard from "./components/Scoreboard.js"
 import Footer from "./components/Footer.js"
+
+// STATE/HOOKS
+import PlayerHooks from "./hooks/playerHooks.js"
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Board/>
+      <Gameboard/>
+      <Scoreboard/>
       <Footer/>
     </div>
   );
