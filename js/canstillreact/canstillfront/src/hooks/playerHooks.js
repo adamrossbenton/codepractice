@@ -55,6 +55,11 @@ const PlayerHooks = props => {
         console.log(r2)
         console.log(r3)
     }
+
+    return {
+        playTest,
+        checkWin,
+    }
 }
 
 export default PlayerHooks
