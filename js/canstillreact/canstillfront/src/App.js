@@ -11,6 +11,8 @@ import Footer from "./components/Footer.js"
 import PlayerHooks from "./hooks/playerHooks.js"
 
 function App() {
+  const {playTest, checkWin} = PlayerHooks()
+  
   return (
     <div className="App">
       <Header/>
